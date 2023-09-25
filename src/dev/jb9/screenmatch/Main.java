@@ -1,6 +1,8 @@
 package dev.jb9.screenmatch;
 
+import dev.jb9.screenmatch.calculations.RecomendationFilter;
 import dev.jb9.screenmatch.calculations.TimeCalculator;
+import dev.jb9.screenmatch.models.Episode;
 import dev.jb9.screenmatch.models.Movie;
 import dev.jb9.screenmatch.models.Series;
 
@@ -22,16 +24,26 @@ public class Main {
         furiosFast.setLaunchedAtYear(2000);
         furiosFast.setDurationInMinutes(120);
 
-        Series timeWheel = new Series();
-        timeWheel.setName("Time Wheel");
-        timeWheel.setSeasons(2);
-        timeWheel.setEpisodesPerSeason(8);
-        timeWheel.setMinutesPerEpisode(60);
+        Series theWheelOfTime = new Series();
+        theWheelOfTime.setName("Time Wheel");
+        theWheelOfTime.setSeasons(2);
+        theWheelOfTime.setEpisodesPerSeason(8);
+        theWheelOfTime.setMinutesPerEpisode(60);
 
         TimeCalculator calculator = new TimeCalculator();
         calculator.add(avengers);
         calculator.add(furiosFast);
-        calculator.add(timeWheel);
-        System.out.println("Amount of time to watch all added assets: " + calculator.getTotalTime() + "minutes");
+        calculator.add(theWheelOfTime);
+        System.out.println("Amount of time to watch all added assets: " + calculator.getTotalTime() + " minutes");
+
+        Episode episode1 = new Episode();
+        episode1.setNumber(1);
+        episode1.setSeries(theWheelOfTime);
+        episode1.setTotalViews(150);
+
+        RecomendationFilter recomendationFilter = new RecomendationFilter();
+        recomendationFilter.filter(avengers);
+        recomendationFilter.filter(furiosFast);
+        recomendationFilter.filter(episode1);
     }
 }
