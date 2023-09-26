@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c32814d2-1cb4-428f-87ed-b61bf8a1fa45" name="Changes" comment="feat: add Series model">
-      <change afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/calculations/RecomendationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/calculations/Sortable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Episode.java" afterDir="false" />
+    <list default="true" id="c32814d2-1cb4-428f-87ed-b61bf8a1fa45" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Asset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Asset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Series.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +128,55 @@
       <option name="project" value="LOCAL" />
       <updated>1695564757372</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: add Sortable interface">
+      <option name="closed" value="true" />
+      <created>1695680921816</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695680921816</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add Recomendation Filter class">
+      <option name="closed" value="true" />
+      <created>1695680945512</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695680945512</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: add Episode as Sortable">
+      <option name="closed" value="true" />
+      <created>1695681001732</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695681001732</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: implements Movie as Sortable">
+      <option name="closed" value="true" />
+      <created>1695681052593</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695681052593</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: make use of Sortable classes">
+      <option name="closed" value="true" />
+      <created>1695681093540</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695681093540</updated>
+    </task>
+    <task id="LOCAL-00012" summary="idea: automatic updated files">
+      <option name="closed" value="true" />
+      <created>1695681106344</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695681106344</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,7 +197,13 @@
     <MESSAGE value="feat: create a super class to abstract assets" />
     <MESSAGE value="refact: extends Movies from Assets" />
     <MESSAGE value="feat: add Series model" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add Series model" />
+    <MESSAGE value="feat: add Sortable interface" />
+    <MESSAGE value="feat: add Recomendation Filter class" />
+    <MESSAGE value="feat: add Episode as Sortable" />
+    <MESSAGE value="feat: implements Movie as Sortable" />
+    <MESSAGE value="feat: make use of Sortable classes" />
+    <MESSAGE value="idea: automatic updated files" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea: automatic updated files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

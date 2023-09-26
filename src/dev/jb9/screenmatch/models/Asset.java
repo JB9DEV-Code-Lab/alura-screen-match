@@ -10,6 +10,13 @@ public class Asset {
     private double totalRatings;
     // endregion fields
 
+    // region constructors
+    public Asset(String name, int launchedAtYear) {
+        this.name = name;
+        this.launchedAtYear = launchedAtYear;
+    }
+    // endregion constructors
+
     // region getters
     public String getName() {
         return name;
@@ -57,14 +64,14 @@ public class Asset {
     // region public methods
     public void showDatasheet() {
         System.out.printf("""
-        Name: %s
-        Launched at: %d
-        Duration in minutes: %d
-        Premium member only: %s
-        The rating sum is: %.2f
-        The total ratings is: %.2f
-        The average is: %.2f
-        """, name, launchedAtYear, durationInMinutes,
+                        Name: %s
+                        Launched at: %d
+                        Duration in minutes: %d
+                        Premium member only: %s
+                        The rating sum is: %.2f
+                        The total ratings is: %.2f
+                        The average is: %.2f
+                        """, name, launchedAtYear, durationInMinutes,
                 (isPremium ? "yes" : "no"), ratingSum,
                 totalRatings, (ratingSum / totalRatings));
     }

@@ -1,6 +1,7 @@
 package dev.jb9.screenmatch.models;
 
 public class Series extends Asset {
+    // region fields
     private int seasons;
     private boolean active;
     private int episodesPerSeason;
@@ -9,7 +10,15 @@ public class Series extends Asset {
     public int getSeasons() {
         return seasons;
     }
+    // endregion fields
 
+    // region constructors
+    public Series(String name, int launchedYear) {
+        super(name, launchedYear);
+    }
+    // endregion constructors
+
+    // region getters and setters
     public void setSeasons(int seasons) {
         this.seasons = seasons;
     }
@@ -37,9 +46,13 @@ public class Series extends Asset {
     public void setMinutesPerEpisode(int minutesPerEpisode) {
         this.minutesPerEpisode = minutesPerEpisode;
     }
+    // region getters and setters
 
+    // region overridings
     @Override
     public int getDurationInMinutes() {
         return seasons * episodesPerSeason * minutesPerEpisode;
     }
+    // endregion overridings
+
 }

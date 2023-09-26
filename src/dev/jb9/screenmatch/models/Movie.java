@@ -7,6 +7,12 @@ public class Movie extends Asset implements Sortable {
     private String director;
     // endregion fields
 
+    // region constructors
+    public Movie(String name, int launchedYear) {
+        super(name, launchedYear);
+    }
+    // endregion contructors
+
     // region getters and setters
     public String getDirector() {
         return director;
@@ -23,4 +29,11 @@ public class Movie extends Asset implements Sortable {
         return (int) getAverage() / 2;
     }
     // endregion implementations
+
+    // region overriginds
+    @Override
+    public String toString() {
+        return String.format("Filme: %s (%d)", this.getName(), this.getLaunchedAtYear());
+    }
+    // endregion overriginds
 }
