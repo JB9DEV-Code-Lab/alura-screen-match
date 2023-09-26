@@ -1,4 +1,4 @@
-package dev.jb9.screenmatch;
+package dev.jb9.screenmatch.main;
 
 import dev.jb9.screenmatch.calculations.RecomendationFilter;
 import dev.jb9.screenmatch.calculations.TimeCalculator;

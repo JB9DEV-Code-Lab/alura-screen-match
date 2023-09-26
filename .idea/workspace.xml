@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c32814d2-1cb4-428f-87ed-b61bf8a1fa45" name="Changes" comment="">
+    <list default="true" id="c32814d2-1cb4-428f-87ed-b61bf8a1fa45" name="Changes" comment="feat: movie collection and building object classes">
+      <change afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/MainLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Asset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Asset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,16 +57,30 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MainLists">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.jb9.screenmatch.Main" />
+      <option name="MAIN_CLASS_NAME" value="dev.jb9.screenmatch.main.Main" />
       <module name="ScreenMatch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.jb9.screenmatch.main.MainLists" />
+      <module name="ScreenMatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.jb9.screenmatch.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainLists" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -176,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695681106344</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: movie collection and building object classes">
+      <option name="closed" value="true" />
+      <created>1695766505297</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695766505297</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +223,8 @@
     <MESSAGE value="feat: implements Movie as Sortable" />
     <MESSAGE value="feat: make use of Sortable classes" />
     <MESSAGE value="idea: automatic updated files" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea: automatic updated files" />
+    <MESSAGE value="feat: movie collection and building object classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: movie collection and building object classes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
