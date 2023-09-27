@@ -5,6 +5,8 @@ import dev.jb9.screenmatch.models.Series;
 import dev.jb9.screenmatch.models.Asset;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class MainLists {
     public static void main(String[] args) {
@@ -30,5 +32,13 @@ public class MainLists {
                 System.out.printf("  => sorting is %d %n", movie.getSorting());
             }
         }
+
+        System.out.println("watched assets after sort by name");
+        Collections.sort(watchedAssets);
+        System.out.println(watchedAssets);
+
+        System.out.println("watched assets after sort by launched year");
+        watchedAssets.sort(Comparator.comparing(Asset::getLaunchedAtYear));
+        System.out.println(watchedAssets);
      }
 }

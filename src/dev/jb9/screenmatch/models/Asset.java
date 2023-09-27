@@ -1,6 +1,6 @@
 package dev.jb9.screenmatch.models;
 
-public class Asset {
+public class Asset implements Comparable<Asset> {
     // region fields
     private String name;
     private int launchedAtYear;
@@ -86,6 +86,10 @@ public class Asset {
     }
     // endregion public methods
 
-    // region private methods
-    // endregion private methods
+    // region overridings
+    @Override
+    public int compareTo(Asset otherAsset) {
+        return this.getName().compareTo(otherAsset.getName());
+    }
+    // endregion overridings
 }

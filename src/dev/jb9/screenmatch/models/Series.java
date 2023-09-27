@@ -53,6 +53,11 @@ public class Series extends Asset {
     public int getDurationInMinutes() {
         return seasons * episodesPerSeason * minutesPerEpisode;
     }
+
+    @Override
+    public String toString() {
+        return String.format("Series: %s (%d)", getName(), getLaunchedAtYear());
+    }
     // endregion overridings
 
 }

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c32814d2-1cb4-428f-87ed-b61bf8a1fa45" name="Changes" comment="feat: movie collection and building object classes">
-      <change afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/MainLists.java" afterDir="false" />
+    <list default="true" id="c32814d2-1cb4-428f-87ed-b61bf8a1fa45" name="Changes" comment="feat: add a main class to only handle lists">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/MainLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/MainLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Asset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Asset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Series.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +197,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695766505297</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="refact: main class to main package">
+      <option name="closed" value="true" />
+      <created>1695768360860</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695768360860</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: add a main class to only handle lists">
+      <option name="closed" value="true" />
+      <created>1695768395884</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1695768395884</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,7 +241,9 @@
     <MESSAGE value="feat: make use of Sortable classes" />
     <MESSAGE value="idea: automatic updated files" />
     <MESSAGE value="feat: movie collection and building object classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: movie collection and building object classes" />
+    <MESSAGE value="refact: main class to main package" />
+    <MESSAGE value="feat: add a main class to only handle lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add a main class to only handle lists" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
