@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c32814d2-1cb4-428f-87ed-b61bf8a1fa45" name="Changes" comment="feat: add a main class to only handle lists">
+    <list default="true" id="c32814d2-1cb4-428f-87ed-b61bf8a1fa45" name="Changes" comment="feat: sort and compare objects with collections">
+      <change afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/MainSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/MainLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/MainLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Asset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Asset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Series.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainLists">
+  <component name="RunManager" selected="Application.MainSearch">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.jb9.screenmatch.main.Main" />
       <module name="ScreenMatch" />
@@ -79,8 +77,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.jb9.screenmatch.main.MainSearch" />
+      <module name="ScreenMatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.jb9.screenmatch.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainSearch" />
         <item itemvalue="Application.MainLists" />
         <item itemvalue="Application.Main" />
       </list>
@@ -213,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695768395884</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: sort and compare objects with collections">
+      <option name="closed" value="true" />
+      <created>1695852251413</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1695852251413</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,7 +263,8 @@
     <MESSAGE value="feat: movie collection and building object classes" />
     <MESSAGE value="refact: main class to main package" />
     <MESSAGE value="feat: add a main class to only handle lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add a main class to only handle lists" />
+    <MESSAGE value="feat: sort and compare objects with collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: sort and compare objects with collections" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
