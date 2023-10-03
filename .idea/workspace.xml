@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c32814d2-1cb4-428f-87ed-b61bf8a1fa45" name="Changes" comment="feat: sort and compare objects with collections">
-      <change afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/MainSearch.java" afterDir="false" />
+    <list default="true" id="c32814d2-1cb4-428f-87ed-b61bf8a1fa45" name="Changes" comment="feat: add API request">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/dtos/AssetDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScreenMatch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ScreenMatch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/MainSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/MainSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Asset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Asset.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -39,18 +45,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -233,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695852251413</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat: add API request">
+      <option name="closed" value="true" />
+      <created>1696282240901</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696282240901</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +278,8 @@
     <MESSAGE value="refact: main class to main package" />
     <MESSAGE value="feat: add a main class to only handle lists" />
     <MESSAGE value="feat: sort and compare objects with collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: sort and compare objects with collections" />
+    <MESSAGE value="feat: add API request" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add API request" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
