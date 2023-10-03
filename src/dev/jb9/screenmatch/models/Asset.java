@@ -1,5 +1,7 @@
 package dev.jb9.screenmatch.models;
 
+import dev.jb9.screenmatch.dtos.AssetDTO;
+
 public class Asset implements Comparable<Asset> {
     // region fields
     private String name;
@@ -14,6 +16,16 @@ public class Asset implements Comparable<Asset> {
     public Asset(String name, int launchedAtYear) {
         this.name = name;
         this.launchedAtYear = launchedAtYear;
+    }
+
+    public Asset(AssetDTO assetDTO) {
+        this.name = assetDTO.title();
+        this.launchedAtYear = Integer.parseInt(assetDTO.year().replaceAll("\\D", ""));
+        try {
+            this.durationInMinutes = Integer.parseInt(assetDTO.runtime().split(" ")[0]);
+        } catch(NumberFormatException exception) {
+            this.durationInMinutes = 0;
+        }
     }
     // endregion constructors
 
@@ -91,5 +103,27 @@ public class Asset implements Comparable<Asset> {
     public int compareTo(Asset otherAsset) {
         return this.getName().compareTo(otherAsset.getName());
     }
+
+    @Override
+    public String toString() {
+        if (this.name.isBlank() && this.launchedAtYear == 0 && this.durationInMinutes == 0) {
+            return "Asset: no name, no year and no duration were provided";
+        }
+
+        if (this.launchedAtYear == 0 && this.durationInMinutes == 0) {
+            return String.format("Asset: %s (no year and no duration were provided)", this.name);
+        }
+
+        if (this.launchedAtYear == 0) {
+            return String.format("Asset: %s (no year was provided) - %d", this.name, this.durationInMinutes);
+        }
+
+        if (this.durationInMinutes == 0) {
+            return String.format("Asset: %s (%d) - no duration was provided", this.name, this.launchedAtYear);
+        }
+
+        return String.format("Asset: %s (%d) - %d minutes", getName(), getLaunchedAtYear(), getDurationInMinutes());
+    }
+
     // endregion overridings
 }
