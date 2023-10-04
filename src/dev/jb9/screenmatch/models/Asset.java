@@ -1,6 +1,6 @@
 package dev.jb9.screenmatch.models;
 
-import dev.jb9.screenmatch.dtos.AssetDTO;
+import dev.jb9.screenmatch.dtos.OMDBAssetDTO;
 
 public class Asset implements Comparable<Asset> {
     // region fields
@@ -18,13 +18,19 @@ public class Asset implements Comparable<Asset> {
         this.launchedAtYear = launchedAtYear;
     }
 
-    public Asset(AssetDTO assetDTO) {
+    public Asset(OMDBAssetDTO assetDTO) {
         this.name = assetDTO.title();
-        this.launchedAtYear = Integer.parseInt(assetDTO.year().replaceAll("\\D", ""));
+
         try {
-            this.durationInMinutes = Integer.parseInt(assetDTO.runtime().split(" ")[0]);
-        } catch(NumberFormatException exception) {
-            this.durationInMinutes = 0;
+            this.launchedAtYear = Integer.parseInt(assetDTO.year().replaceAll("\\D", ""));
+        } catch(NumberFormatException | NullPointerException exception) {
+            this.launchedAtYear = 0;
+        }
+
+        try {
+            this.durationInMinutes = Integer.parseInt(assetDTO.runtime().split("\\s")[0]);
+        } catch(NumberFormatException | NullPointerException exception) {
+            this.launchedAtYear = 0;
         }
     }
     // endregion constructors
@@ -106,19 +112,39 @@ public class Asset implements Comparable<Asset> {
 
     @Override
     public String toString() {
-        if (this.name.isBlank() && this.launchedAtYear == 0 && this.durationInMinutes == 0) {
+        boolean hasName = this.name != null && !this.name.isEmpty();
+        boolean hasYear = this.launchedAtYear > 0;
+        boolean hasDuration = this.durationInMinutes > 0;
+
+        if (!hasName && !hasYear && !hasDuration) {
             return "Asset: no name, no year and no duration were provided";
         }
 
-        if (this.launchedAtYear == 0 && this.durationInMinutes == 0) {
+        if (!hasName && !hasYear) {
+            return String.format("Asset: no name and no year were provided - %d minutes", this.durationInMinutes);
+        }
+
+        if (!hasName && !hasDuration) {
+            return String.format("Asset: no name and no duration were provided - launched at %d", this.launchedAtYear);
+        }
+
+        if (!hasYear && !hasDuration) {
             return String.format("Asset: %s (no year and no duration were provided)", this.name);
         }
 
-        if (this.launchedAtYear == 0) {
-            return String.format("Asset: %s (no year was provided) - %d", this.name, this.durationInMinutes);
+        if (!hasName) {
+            return String.format(
+                    "Asset: no name was provided - launched at %d - %d minutes",
+                    this.launchedAtYear,
+                    this.durationInMinutes
+            );
         }
 
-        if (this.durationInMinutes == 0) {
+        if (!hasYear) {
+            return String.format("Asset: %s (no year was provided) - %d minutes", this.name, this.durationInMinutes);
+        }
+
+        if (!hasDuration) {
             return String.format("Asset: %s (%d) - no duration was provided", this.name, this.launchedAtYear);
         }
 
