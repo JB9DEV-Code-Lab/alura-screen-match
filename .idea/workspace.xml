@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c32814d2-1cb4-428f-87ed-b61bf8a1fa45" name="Changes" comment="feat: encapsulates movie search and rename DTO">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="c32814d2-1cb4-428f-87ed-b61bf8a1fa45" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/MainSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/MainSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/services/OMDBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/jb9/screenmatch/services/OMDBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +289,31 @@
       <option name="project" value="LOCAL" />
       <updated>1696377827660</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="build: ignore auto generated resource file">
+      <option name="closed" value="true" />
+      <created>1696457391502</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1696457391502</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat: save searched movies to a file">
+      <option name="closed" value="true" />
+      <created>1696457432753</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1696457432753</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat: loop asking for many movies to search">
+      <option name="closed" value="true" />
+      <created>1696457460577</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1696457460577</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +328,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: add project structure" />
     <MESSAGE value="feat: add Movie model" />
     <MESSAGE value="feat: add Main execution point" />
     <MESSAGE value="feat: create a super class to abstract assets" />
@@ -330,7 +350,10 @@
     <MESSAGE value="feat: make use of Gson to build json" />
     <MESSAGE value="idea: automatic changes" />
     <MESSAGE value="feat: encapsulates movie search and rename DTO" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: encapsulates movie search and rename DTO" />
+    <MESSAGE value="build: ignore auto generated resource file" />
+    <MESSAGE value="feat: save searched movies to a file" />
+    <MESSAGE value="feat: loop asking for many movies to search" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: loop asking for many movies to search" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
