@@ -29,4 +29,5 @@ bin/
 .DS_Store
 
 ### Auto generated resource files ###
-/src/dev/jb9/screenmatch/resources/searched-movies.json
+src/main/resources/searched-movies.json
+target/

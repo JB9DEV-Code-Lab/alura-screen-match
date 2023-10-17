@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c32814d2-1cb4-428f-87ed-b61bf8a1fa45" name="Changes" comment="refact: removes redundant variable">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_10_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_10_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c32814d2-1cb4-428f-87ed-b61bf8a1fa45" name="Changes" comment="fixup! idea: remove Gson local dependency">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScreenMatch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ScreenMatch.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/calculations/RecomendationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/calculations/RecomendationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/calculations/Sortable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/calculations/Sortable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/calculations/TimeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/calculations/TimeCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/dtos/OMDBAssetDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/dtos/OMDBAssetDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/MainLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/main/MainLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/MainSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/main/MainSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Asset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/models/Asset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Episode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/models/Episode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/models/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/models/Series.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/services/OMDBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/services/OMDBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,7 +346,47 @@
       <option name="project" value="LOCAL" />
       <updated>1697579830781</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="idea: remove Gson local dependency">
+      <option name="closed" value="true" />
+      <created>1697583868840</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1697583868840</updated>
+    </task>
+    <task id="LOCAL-00032" summary="idea: remove Gson local dependency">
+      <option name="closed" value="true" />
+      <created>1697583949885</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1697583949885</updated>
+    </task>
+    <task id="LOCAL-00033" summary="build: add support form Maven">
+      <option name="closed" value="true" />
+      <created>1697583980504</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1697583980504</updated>
+    </task>
+    <task id="LOCAL-00034" summary="build: automatic files moved for Maven structure">
+      <option name="closed" value="true" />
+      <created>1697584036343</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1697584036343</updated>
+    </task>
+    <task id="LOCAL-00035" summary="fixup! idea: remove Gson local dependency">
+      <option name="closed" value="true" />
+      <created>1697584147001</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1697584147001</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -381,10 +401,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: add Series model" />
-    <MESSAGE value="feat: add Sortable interface" />
-    <MESSAGE value="feat: add Recomendation Filter class" />
-    <MESSAGE value="feat: add Episode as Sortable" />
     <MESSAGE value="feat: implements Movie as Sortable" />
     <MESSAGE value="feat: make use of Sortable classes" />
     <MESSAGE value="idea: automatic updated files" />
@@ -406,7 +422,11 @@
     <MESSAGE value="refact: remove unused import" />
     <MESSAGE value="docs: update README with minimal information" />
     <MESSAGE value="refact: removes redundant variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="refact: removes redundant variable" />
+    <MESSAGE value="idea: remove Gson local dependency" />
+    <MESSAGE value="build: add support form Maven" />
+    <MESSAGE value="build: automatic files moved for Maven structure" />
+    <MESSAGE value="fixup! idea: remove Gson local dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixup! idea: remove Gson local dependency" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
