@@ -17,12 +17,11 @@ public class MainSearch {
         Hi, this is the movie searcher. I'm keep asking you which movie you want to search until you say "done".
         Then I'll store all of them in a file at the end and I'll let you know.
         """);
-        String movieName = "";
 
         while(true) {
             try {
                 System.out.print("Which movie do you want to search? \n> ");
-                movieName = reader.nextLine().toLowerCase();
+                String movieName = reader.nextLine().toLowerCase();
 
                 if (movieName.equals("done")) {
                     break;
