@@ -1,7 +1,6 @@
 package dev.jb9.screenmatch.main;
 
 import dev.jb9.screenmatch.dtos.OMDBAssetDTO;
-import dev.jb9.screenmatch.models.Asset;
 import dev.jb9.screenmatch.services.OMDBService;
 
 import java.io.File;
