@@ -4,9 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c32814d2-1cb4-428f-87ed-b61bf8a1fa45" name="Changes" comment="refact: remove unused import">
+    <list default="true" id="c32814d2-1cb4-428f-87ed-b61bf8a1fa45" name="Changes" comment="refact: removes redundant variable">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_10_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_10_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScreenMatch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ScreenMatch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/calculations/RecomendationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/calculations/RecomendationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/calculations/Sortable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/calculations/Sortable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/calculations/TimeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/calculations/TimeCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/dtos/OMDBAssetDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/dtos/OMDBAssetDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/MainLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/main/MainLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/main/MainSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/main/MainSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Asset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/models/Asset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Episode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/models/Episode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/models/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/models/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/models/Series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/jb9/screenmatch/services/OMDBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jb9/screenmatch/services/OMDBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,25 +59,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/JBS27/Personal/Projects/Java/Alura/ScreenMatch&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/JBS27/Personal/Projects/Java/Alura/ScreenMatch",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MainSearch">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.jb9.screenmatch.main.Main" />
       <module name="ScreenMatch" />
@@ -94,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainSearch" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainLists" />
       </list>
     </recent_temporary>
@@ -331,7 +350,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697577644592</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="docs: update README with minimal information">
+      <option name="closed" value="true" />
+      <created>1697579685415</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1697579685415</updated>
+    </task>
+    <task id="LOCAL-00030" summary="refact: removes redundant variable">
+      <option name="closed" value="true" />
+      <created>1697579830781</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1697579830781</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,8 +381,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: create a super class to abstract assets" />
-    <MESSAGE value="refact: extends Movies from Assets" />
     <MESSAGE value="feat: add Series model" />
     <MESSAGE value="feat: add Sortable interface" />
     <MESSAGE value="feat: add Recomendation Filter class" />
@@ -371,7 +404,9 @@
     <MESSAGE value="feat: loop asking for many movies to search" />
     <MESSAGE value="docs: update description on Readme file" />
     <MESSAGE value="refact: remove unused import" />
-    <option name="LAST_COMMIT_MESSAGE" value="refact: remove unused import" />
+    <MESSAGE value="docs: update README with minimal information" />
+    <MESSAGE value="refact: removes redundant variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="refact: removes redundant variable" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

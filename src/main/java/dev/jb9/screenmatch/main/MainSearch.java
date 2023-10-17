@@ -11,7 +11,7 @@ public class MainSearch {
     public static void main(String[] args)  {
         Scanner reader = new Scanner(System.in);
         OMDBService omdbService = new OMDBService();
-        File searchedMoviesJson = new File("src/dev/jb9/screenmatch/resources/searched-movies.json");
+        File searchedMoviesJson = new File("src/main/resources/searched-movies.json");
 
         System.out.println("""
         Hi, this is the movie searcher. I'm keep asking you which movie you want to search until you say "done".
